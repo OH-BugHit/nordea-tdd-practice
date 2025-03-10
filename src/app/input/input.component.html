@@ -1,0 +1,12 @@
+<div class="input-group">
+    <span>Initial savings:</span>
+    <input id="initial-savings" type="number" [(ngModel)]="savedAmount">
+</div>
+
+<div class="input-group">
+    <span>Monthly savings:</span>
+    <input id="monthly-savings" type="number" [(ngModel)]="monthlyAmount">
+</div>
+
+<button id="add-button" (click)="addButtonClicked()">Add</button>
+<button id="reset-button" (click)="resetButtonClicked()">Reset</button>
