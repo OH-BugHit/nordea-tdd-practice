@@ -41,13 +41,7 @@ You can install dependencies by running:
 npm install
 ```
 
-## 3. Launch application
-You can launch the application locally by running:
-```bash
-npm run start
-```
-
-## 4. Run tests
+## 3. Run tests
 Project is covered with unit tests. Unit tests are written by using [Jasmine](https://jasmine.github.io/) and executed by using [Karma](https://karma-runner.github.io/latest/index.html).
 
 You can execute unit tests by running:
@@ -55,8 +49,14 @@ You can execute unit tests by running:
 npm run test
 ```
 
+## 4. Launch application
+You can launch the application locally by running:
+```bash
+npm start
+```
+
 ### Additional materials
-* [TDD](https://martinfowler.com/bliki/TestDrivenDevelopment.html)
+* [TDD](https://tidyfirst.substack.com/p/canon-tdd)
 * [Unit tests](https://martinfowler.com/bliki/UnitTest.html)
 * [Test pyramid](https://martinfowler.com/bliki/TestPyramid.html)
 * [Testing Angular](https://testing-angular.com/)
