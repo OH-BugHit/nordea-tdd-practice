@@ -5,4 +5,4 @@
 
 # Muita:
 
--   Kysy tomilta vaihdettaisko scss projektiin
+-   Kysy tomilta vaihdettaisko scss Liika.eu -projektiin
