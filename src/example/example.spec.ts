@@ -17,7 +17,7 @@ describe('Sort array of Strings', () => {
         expect(result).toEqual([]);
     });
 
-    it('returns array with one element when one given name', () => {
+    it('returns one name when one name given', () => {
         const result = sortArray('Tomi');
 
         expect(result).toEqual(['Tomi']);
