@@ -22,8 +22,17 @@ describe('Sort array of Strings', () => {
 
         expect(result).toEqual(['Tomi']);
     });
+
+    it('return empty array when empty name is given', () => {
+        const result = sortArray('');
+        expect(result).toEqual([]);
+    });
 });
 
 function sortArray(...names: string[]): string[] {
-    return names;
+    const filterNames = names.filter((name) => {
+        return name != '';
+    });
+
+    return filterNames;
 }
