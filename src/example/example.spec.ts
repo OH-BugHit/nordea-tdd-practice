@@ -27,8 +27,15 @@ describe('Sort array of Strings', () => {
         const result = sortArray('');
         expect(result).toEqual([]);
     });
+
+    it('returns array of sorted names when multiple names are given', () => {
+        const result = sortArray('Petteri', 'Aapo');
+
+        expect(result).toEqual(['Aapo', 'Petteri']);
+    });
 });
 
 function sortArray(...names: string[]): string[] {
+    names.sort();
     return names.filter((name) => !!name);
 }
