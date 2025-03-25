@@ -33,6 +33,12 @@ describe('Sort array of Strings', () => {
 
         expect(result).toEqual(['Aapo', 'Petteri']);
     });
+
+    it('returns array of names sorted by capitalization', () => {
+        const result = sortArray('tomi', 'Tomi');
+
+        expect(result).toEqual(['Tomi', 'tomi']);
+    });
 });
 
 function sortArray(...names: string[]): string[] {
