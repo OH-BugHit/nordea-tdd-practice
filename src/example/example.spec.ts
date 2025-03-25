@@ -36,6 +36,5 @@ describe('Sort array of Strings', () => {
 });
 
 function sortArray(...names: string[]): string[] {
-    names.sort();
-    return names.filter((name) => !!name);
+    return names.filter((name) => !!name).sort();
 }
