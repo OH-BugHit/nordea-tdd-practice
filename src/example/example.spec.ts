@@ -30,9 +30,5 @@ describe('Sort array of Strings', () => {
 });
 
 function sortArray(...names: string[]): string[] {
-    const filterNames = names.filter((name) => {
-        return name != '';
-    });
-
-    return filterNames;
+    return names.filter((name) => !!name);
 }
